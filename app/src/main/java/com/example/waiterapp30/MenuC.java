@@ -6,6 +6,7 @@ import android.view.View;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import com.example.waiterapp30.Bebidas.Bebidas1;
 import com.example.waiterapp30.Entrantes.Entrantes1;
 import com.example.waiterapp30.Postres.Postres1;
 import com.example.waiterapp30.Principales.Principal1;
@@ -35,6 +36,11 @@ public class MenuC extends AppCompatActivity {
     }
     public void entrante(View view) {
         startActivity(new Intent(getApplicationContext(), Entrantes1.class));
+        finish();
+    }
+
+    public void Bebidas(View view) {
+        startActivity(new Intent(getApplicationContext(), Bebidas1.class));
         finish();
     }
 }

@@ -5,12 +5,21 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/bgapps"
-    tools:context=".MenuC">
+    tools:context=".Bebidas.Bebidas1">
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical">
+
+        <Button
+            android:id="@+id/button5"
+            android:layout_marginTop="5sp"
+            android:background="@drawable/boton_redondo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:onClick="atras"
+            android:text="Atras" />
 
         <RelativeLayout
             android:layout_width="match_parent"
@@ -23,7 +32,7 @@
                 android:id="@+id/textC"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="WaiterApp"
+                android:text="Bebidas"
                 android:textColor="#ffffff"
                 android:textSize="24sp"></TextView>
 
@@ -46,43 +55,9 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:alignmentMode="alignMargins"
-            android:columnCount="2"
+            android:columnCount="1"
             android:columnOrderPreserved="false"
-            android:rowCount="3">
-
-            <androidx.cardview.widget.CardView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_columnWeight="1"
-            android:layout_rowWeight="1"
-            app:cardElevation="6dp"
-            app:cardCornerRadius="12dp"
-            android:layout_margin="12dp">
-
-            <LinearLayout
-                android:orientation="vertical"
-                android:padding="16dp"
-                android:gravity="center"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent">
-
-                <ImageView
-                    android:onClick="postre"
-                    android:layout_width="80dp"
-                    android:layout_height="80dp"
-                    android:src="@drawable/postre"/>
-                <TextView
-                    android:layout_marginTop="12dp"
-                    android:textColor="#6f6f6f"
-                    android:text="Postres"
-                    android:textSize="18sp"
-                    android:layout_width="wrap_content"
-                    android:layout_height="wrap_content"/>
-
-
-            </LinearLayout>
-
-        </androidx.cardview.widget.CardView>
+            android:rowCount="6">
 
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
@@ -101,14 +76,13 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:onClick="sopas"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/sopas"/>
+                        android:src="@drawable/bebida1"/>
                     <TextView
                         android:layout_marginTop="12dp"
                         android:textColor="#6f6f6f"
-                        android:text="Sopas"
+                        android:text="Coca Cola"
                         android:textSize="18sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
@@ -135,14 +109,13 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:onClick="princial"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/principal"/>
+                        android:src="@drawable/bebida2"/>
                     <TextView
                         android:layout_marginTop="12dp"
                         android:textColor="#6f6f6f"
-                        android:text="P. Principal"
+                        android:text="Pepsi"
                         android:textSize="18sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
@@ -169,14 +142,13 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:onClick="entrante"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/entrantes"/>
+                        android:src="@drawable/bebida3"/>
                     <TextView
                         android:layout_marginTop="12dp"
                         android:textColor="#6f6f6f"
-                        android:text="Entrantes"
+                        android:text="Jugos Naturales"
                         android:textSize="18sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
@@ -203,18 +175,16 @@
                     android:layout_height="match_parent">
 
                     <ImageView
-                        android:onClick="Bebidas"
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/refreszos"/>
+                        android:src="@drawable/bebida4"/>
                     <TextView
                         android:layout_marginTop="12dp"
                         android:textColor="#6f6f6f"
-                        android:text="Refrescos"
+                        android:text="Jugos del Valle"
                         android:textSize="18sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
-
 
 
                 </LinearLayout>
@@ -240,11 +210,11 @@
                     <ImageView
                         android:layout_width="80dp"
                         android:layout_height="80dp"
-                        android:src="@drawable/cerveza"/>
+                        android:src="@drawable/bebida5"/>
                     <TextView
                         android:layout_marginTop="12dp"
                         android:textColor="#6f6f6f"
-                        android:text="Cervezas"
+                        android:text="Agua"
                         android:textSize="18sp"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
@@ -254,7 +224,6 @@
                 </LinearLayout>
 
             </androidx.cardview.widget.CardView>
-
 
         </GridLayout>
 
