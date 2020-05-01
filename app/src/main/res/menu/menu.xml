@@ -4,29 +4,32 @@
 
     <item
         android:id="@+id/item1"
-        android:title="Item 1"/>
+        android:title="Historial de pedidos"/>
 
     <item
         android:id="@+id/item2"
-        android:title="Item 2" />
+        android:title="Comentarios" />
 
     <item
         android:id="@+id/item3"
-        android:title="Item 3" />
+        android:title="Como funciona" />
 
     <item
         android:id="@+id/item4"
-        android:title="Item 4">
+        android:title="Contacta con nosotros">
 
         <menu>
+            <item
+                android:id="@+id/subitem3"
+                android:title="Contactanos"/>
 
             <item
                 android:id="@+id/subitem1"
-                android:title="Sub Item 1"/>
+                android:title="Cerrar Sesión"/>
 
             <item
                 android:id="@+id/subitem2"
-                android:title="Sub Item 2"/>
+                android:title="Donaciones"/>
         </menu>
 
     </item>

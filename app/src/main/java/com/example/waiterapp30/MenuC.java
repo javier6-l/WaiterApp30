@@ -54,6 +54,9 @@ public class MenuC extends AppCompatActivity {
             case R.id.subitem2:
                 Toast.makeText(this, "Sub Item two selected", Toast.LENGTH_SHORT).show();
                 return true;
+            case R.id.subitem3:
+                Toast.makeText(this, "Sub Item one  selected", Toast.LENGTH_SHORT).show();
+                return true;
             default:
                 return super.onOptionsItemSelected(item);
         }
