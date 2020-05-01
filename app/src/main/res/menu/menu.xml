@@ -3,24 +3,32 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
     <item
-        android:id="@+id/action_search"
-        android:icon="@mipmap/outline_search_white_18dp"
-        android:title="Buscar"
-        app:showAsAction="always" />
+        android:id="@+id/item1"
+        android:title="Item 1"/>
+
     <item
-        android:id="@+id/action_pedidos"
-        android:title="Historial de pedidos" />
+        android:id="@+id/item2"
+        android:title="Item 2" />
+
     <item
-        android:id="@+id/action_comentarios"
-        android:title="¿Comentarios?" />
+        android:id="@+id/item3"
+        android:title="Item 3" />
+
     <item
-        android:id="@+id/action_funciona"
-        android:title="Cómo funciona" />
-    <item
-        android:id="@+id/action_contacta"
-        android:title="Contacta con nosotros" />
-    <item
-        android:id="@+id/action_logout"
-        android:title="Cerrar Sesión"
-        android:onClick="sesion"/>
+        android:id="@+id/item4"
+        android:title="Item 4">
+
+        <menu>
+
+            <item
+                android:id="@+id/subitem1"
+                android:title="Sub Item 1"/>
+
+            <item
+                android:id="@+id/subitem2"
+                android:title="Sub Item 2"/>
+        </menu>
+
+    </item>
+
 </menu>
