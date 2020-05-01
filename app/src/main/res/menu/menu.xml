@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_search"
+        android:icon="@mipmap/outline_search_white_18dp"
+        android:title="Buscar"
+        app:showAsAction="always" />
+    <item
+        android:id="@+id/action_pedidos"
+        android:title="Historial de pedidos" />
+    <item
+        android:id="@+id/action_comentarios"
+        android:title="¿Comentarios?" />
+    <item
+        android:id="@+id/action_funciona"
+        android:title="Cómo funciona" />
+    <item
+        android:id="@+id/action_contacta"
+        android:title="Contacta con nosotros" />
+    <item
+        android:id="@+id/action_logout"
+        android:title="Cerrar Sesión"
+        android:onClick="sesion"/>
+</menu>

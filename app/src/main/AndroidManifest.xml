@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.waiterapp30">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Entrantes.EDescripcion.EDescripcion7"></activity>
+        <activity android:name=".Entrantes.EDescripcion.EDescripcion6" />
+        <activity android:name=".Entrantes.EDescripcion.EDescripcion5" />
+        <activity android:name=".Entrantes.EDescripcion.EDescripcion4" />
+        <activity android:name=".Entrantes.EDescripcion.EDescripcion3" />
+        <activity android:name=".Entrantes.EDescripcion.EDescripcion2" />
+        <activity android:name=".Entrantes.EDescripcion.EDescripcion1" />
+        <activity android:name=".Entrantes.Entrantes1" />
+        <activity android:name=".Principales.PriDescripcion.PriDescripcion7" />
+        <activity android:name=".Principales.PriDescripcion.PriDescripcion6" />
+        <activity android:name=".Principales.PriDescripcion.PriDescripcion5" />
+        <activity android:name=".Principales.PriDescripcion.PriDescripcion4" />
+        <activity android:name=".Principales.PriDescripcion.PriDescripcion3" />
+        <activity android:name=".Principales.PriDescripcion.PriDescripcion2" />
+        <activity android:name=".Principales.PriDescripcion.PriDescripcion1" />
+        <activity android:name=".Principales.Principal1" />
+        <activity android:name=".Sopas.SopasDescripcion.SDescripcion7" />
+        <activity android:name=".Sopas.SopasDescripcion.SDescripcion6" />
+        <activity android:name=".Sopas.SopasDescripcion.SDescripcion5" />
+        <activity android:name=".Sopas.SopasDescripcion.SDescripcion4" />
+        <activity android:name=".Sopas.SopasDescripcion.SDescripcion3" />
+        <activity android:name=".Sopas.SopasDescripcion.SDescripcion2" />
+        <activity android:name=".Sopas.SopasDescripcion.SDescripcion1" />
+        <activity android:name=".Sopas.Sopas1" />
+        <activity android:name=".Postres.PDescripcion.Descripcion7" />
+        <activity android:name=".Postres.PDescripcion.Descripcion6" />
+        <activity android:name=".Postres.PDescripcion.Descripcion5" />
+        <activity android:name=".Postres.PDescripcion.Descripcion4" />
+        <activity android:name=".Postres.PDescripcion.Descripcion3" />
+        <activity android:name=".Postres.PDescripcion.Descripcion2" />
+        <activity android:name=".Postres.PDescripcion.Descripcion1" />
+        <activity android:name=".Postres.Postres1" />
+        <activity android:name=".MenuC" />
+        <activity android:name=".Fotos" />
+        <activity android:name=".Restaurantes" />
+        <activity android:name=".Pedir" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

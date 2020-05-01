@@ -1,0 +1,106 @@
+<resources>
+    <string name="app_name">WaiterApp</string>
+    <string name="postre1">Este restaurante ya clásico de la zona Narvarte–Del Valle presume de servir uno de los mejores pasteles de chocolate de la ciudad. Más cercano al volcán que al pastel, su relleno llega a la mesa tibio, y con el primer corte se desborda como lava oscura y deliciosa sobre la salsa de naranja o mandarina, dependiendo de la temporada. La combinación del chocolate oaxaqueño derretido con el jarabe de cítricos es apabullante.
+        \n\nDónde comerlo: Piloncillo y cascabel. Torres Adalid 1263, Narvarte.
+        \n\nCuándo comerlo: En mood goloso. Es el sueño hecho realidad de los amantes del chocolate. </string>
+    <string name="postre2">Las crepas están hechas con harina de trigo, matcha, huevo, leche y azúcar. Cada pastel lleva de 18 a 22 crepas y mucha crema batida, así que si tu plan es cuidar la dieta, mejor ni lo veas.
+        \n\nEn MOG utilizan matcha japonesa para cuidar el sabor y darle la vista más verde posible, todos los pasteles se preparan al día, pues una de las cualidades de la clorofila es que se oxida y el sabor cambia muy pronto.
+        \n\nDónde comerlo: MOG Bistro. Frontera 168, Roma.
+        \n\nCuándo comerlo: Es un pastel para disfrutarse en todo momento, la idea es compartirlo sin preocuparte de las calorías. El estado de ánimo puede variar entre festivo y de gordo.</string>
+    <string name="postre3">El sabor estrella de Le Macaron Boutique es el de vainilla de Papantla, es clásico y fresco. Otro sabor que debes probar es el de cassis, relleno con una ganache de grosella negra, mezcla perfecta de acidez y dulzura. Están los clásicos de chocolate belga, pistache, café de grano de Veracruz y frambuesa. Y si quieres probar cosas nuevas, intenta con matcha, lavanda o queso de cabra con higo.
+        \n\nDónde comerlo: Le Macaron Boutique. Córdoba 125, Roma.
+        \n\nCuándo comerlo:  Es ideal para el munchies en la oficina o para llevar a las fiestas familiares por su presentación práctica y ligera.
+        </string>
+    <string name="postre4">El secreto es el jengibre cristalizado, un proceso que lleva de tres a cuatro días para que el tubérculo quede seco y perfecto. Además, la pasta no es dulce, sino salada,  lo que evita que los sabores sean cargados y empalagosos. La pasta  y las manzanas se cocinan al día.  Es un postre caliente que se sirve acompañado de helado de vainilla orgánico y se transforma en una tarta más rústica.
+        \n\nDónde comerlo: Belmondo Tabasco 109, Roma.
+        \n\nCuándo comerlo:  Cuando te sientas nostálgico, como en los días de frío o lluvia. El jengibre sirve para calmar los resfriados o la gripe, así que disfrútalo cuando te sientas bajoneado.
+        </string>
+    <string name="postre5">Este fondant de chocolate es el orgasmo con el que todos soñamos. El pedido demora unos 10 minutos, pues el postre se hace in situ; viene acompañado de una bola de helado de avellana que sella el sabor de una buena cita, pues la combinación frío-caliente se deshará en tu boca. Cuando partes el pastelito, lo primero que notas es cómo se inunda tu plato.
+        \n\nDónde comerlo: Bistrot Arlequín. Río Nilo 42, Cuauhtémoc.
+        \n\nCuándo comerlo: Cuando te sientes romántico, por más cliché que resulte, si quieres conquistar a tu date y es fan del chocolate, éste es el lugar ideal.
+        </string>
+    <string name="postre6">Aunque sea un postre elegante, se come con antojo y con las manos. Al dar la primera mordida te elevarás al paraíso. El sabor es sutil, pero firme, identificas cada uno de los ingredientes. El relleno es de queso mascarpone con un toque de vainilla y especias, a los costados trae trozos de pistache en cada salida y gotitas de miel.
+        \n\nDónde comerlo: María Ciento38. Santa María la Ribera 138, Santa María la Ribera.
+        \n\nCuándo comerlo: También es para conquistar a tu amorcito.
+        </string>
+    <string name="postre7">¿Alguna vez soñaste con un cuento de hadas? Entonces tienes que venir a comer un taiyaki. Todo en este postre es de ensueño y gordura. El taiyaki es un pan dulce en forma de pez, normalmente se rellena con adzuki, pero aquí está relleno de chocolate  y helado de bombón, tiene dos Pockys de fresa y para rematar el diseño, trae un puñado de cereal Fruity Pebbles y crema de avellana. Es una bomba de azúcar rosa pensada para disfrutarse cuando nos entra el espíritu gordo.
+        \n\nDónde comerlo: Fat Boy Moves. Tamaulipas 147, Condesa.
+        \n\nCuándo comerlo: Para el momento rompedieta, estado de ánimo matacomplejos, cualquier ocasión que incluya un espíritu de exploración y gordura.
+        </string>
+
+
+    <string name="sopa1">Hay sopas que reparan almas y esta es una de ellas. No hay posibilidad alguna de que a alguien no le guste esta casera y sencilla sopita de verduras con pasta y mini albóndigas de pollo que promete curar hasta el alma más adolorida.
+        \n\nLo ideal es que se la prepares a quien está enfermo o triste pues es bien sabido que el efecto de esta sopa radica más en el cariño que se le tiene a las personas que en sus ingrendientes en sí.
+        \n\n
+        </string>
+    <string name="sopa2">En realidad no necesitamos decirte que esta sopa es deliciosa, quizá la hayas probado en casa de tu mamá o tu abuelita, así que ya sabes de qué hablamos.
+        \n\nLo que sí debemos explicarte es que esto no es alta cocina, es comida casera de la que saca lágrimas de gozo y te llena la mente de memorias. Es una receta que mueve al corazón. ¿Acaso existe algo mejor?
+        \n\n
+        </string>
+    <string name="sopa3">Aprovechando que los bosques se llenan de humedad y con ello viene el nacimiento de tantas variedades de hongos comestibles, no puede faltar la tradicional y humeante sopa de hongos, un potaje calientito, sano y cargado de energía. Servir caliente y, si se puede, acompañar con un taco de requesón.
+        \n\n
+        \n\n
+        </string>
+    <string name="sopa4">¿Qué recuerdas de las alcachofas? A mí me traen a la memoria, sin duda, el típico plato con lacón —perdón, con jamón— que me ponía mi madre por delante. De nuevo, antes era una tortura, pero hoy, con años y kilómetros de distancia de por medio, es un sabor que me hace pensar en casa con mucho cariño. De ahí que intente aprovechar estos meses para comerlas de todas las maneras posibles: asadas, salteadas con otras verduras o, en este caso, en una sopa ligera con pasta y menta.
+        \n\n
+        \n\n
+        </string>
+    <string name="sopa5">Como su nombre lo dice, los ingredientes con los que se elabora esta sopa pueden encontrarse en la milpa, ese lugar mágico destinado al cultivo de vegetales y precisamente ahí radica su encanto, por lo que puedes encontrar versiones con rajas de chile poblano o con granos de elote y hasta nopales
+        \n\n
+
+        </string>
+    <string name="sopa6">En Japón, la sopa Udon es el equivalente a nuestra tradicional sopa de municiones   caracolitos; se hace con un caldo base y se le puede agregar lo que sea. Sin embargo, en esta ocasión les damos la receta para hacerla con el tradicional sabor de la tierra de los ninjas, de Akira Kurosawa y sí, también de Godzilla.
+        \n\n
+
+        </string>
+    <string name="sopa7">El camote anaranjado tiene muchas similitudes con las calabazas típicas de esta época del año y su dulce sabor permite preparar unas sopas deliciosas.
+        \n\n
+
+        </string>
+
+
+    <string name="principal1">Originario de Europa pero popularizado en Estados Unidos, los perritos calientes están deliciosos y más si el pan se prepara de forma casera. ¿Te animas a probarlo con esta receta?.
+        \n\n
+        \n\n</string>
+    <string name="principal2">Puede que esta combinación no es que te suene muy bien, peor el toque dulce del dátil con el salado del bacon queda espectacular.
+        \n\n
+        \n\n</string>
+    <string name="principal3">Este plato típico de la gastronomía mexicana consiste en un bollo de pan con pasta de frijoles fritos, pico de gallo y queso rallado fundido. Está delicioso y es la comida perfecta para toda la familia.
+        \n\n
+        \n\n</string>
+    <string name="principal4">El lomo es la parte más jugosa del cerdo y también una de las partes más magras, es decir, que tiene un bajo contenido en grasa. Además, el lomo de cerdo tiene alto valor en proteínas y vitaminas del grupo B, esto junto a su bajo contenido en calorías y colesterol hacen del lomo de cerdo una de las mejores partes de este animal.
+        \n\nPor este motivo, en este artículo tenemos una deliciosa receta en la que el lomo de cerdo es el ingrediente principal: lomo de cerdo a la cerveza.
+        \n\n</string>
+    <string name="principal5">El salmonete es un tipo de pescado frito muy típico de la zona de Andalucía. Es fácil de hacer y además proporcionará muchos beneficios a tu salud.
+        \n\n
+        \n\n</string>
+    <string name="principal6">La pasta es un conjunto de alimentos preparados con una masa cuyo ingrediente básico es la harina, mezclada generalmente con agua, y a la cual se puede añadir sal, huevo u otros ingredientes para darle consistencia.
+        \n\nAunque es muy utilizada en la gastronomía italiana y asiática, lo cierto es que la pasta es uno de los productos gastronómicos más internacionalizados. La versatilidad de la masa permite hacer pasta de diferentes formas y tamaño y la neutralidad de su sabor permite acompañarla de prácticamente cualquier salsa o alimento.
+        \n\n</string>
+    <string name="principal7">Además de ser un plato perfecto para toda la familia por lo delicioso que está, la liebre también se caracteriza por ser una fuente muy importante de proteínas al mismo tiempo que a penas contiene grasa.
+        \n\n
+        \n\n</string>
+
+
+    <string name="entrante1">Una porción razonable de este plato se limita a un mero aperitivo acompañado de un poco de agua para diluir el exceso de sales
+        \n\nLas anchoas se limpian, se cortan en filetes y se secan. Los ajos se pican menudos y se majan en el mortero con el perejil, también picado, y el pan rallado. Se engrasa una fuente de horno con un poco de aceite; se coloca una capa de filetes de anchoa con la parte abierta hacia arriba, se salpimientan y se pone una capa del majado; después, otra capa de anchoas, y se repite la operación hasta finalizar con una capa del majado. Por último, se hornean las anchoas a temperatura media durante 15 minutos.
+        \n\n</string>
+    <string name="entrante2">El atún, limpio y sin piel ni espinas, se corta en trozos regulares y se sazona con sal. Aparte, en una cazuela grande con un chorro de aceite caliente, se fríe el jamón picado; después, se añade el bonito y se rehoga.
+        \n\nCuando el bonito esté dorado, se agregan las cebollas, los ajos, el perejil y los puerros —sólo la parte blanca—, todo bien picado; se añade también una hoja pequeña de laurel y un vaso de vino blanco, y se deja cocer a fuego lento durante una hora y media.
+        \n\nYa casi en su punto, se rocía el guiso con dos cucharadas de pan rallado, y se mantiene en el fuego unos minutos más. Se sirve cubierto con su salsa tamizada por el pasapurés para que quede más ligera.</string>
+    <string name="entrante3">Los aguacates, bien lavados, se cortan longitudinalmente en dos trozos.
+        \n\nSe vacían de pulpa, dejando un centímetro sin quitar. La pulpa se rocía y machaca con zumo de limón para que no oscurezca. Con la pulpa del aguacate, los dos tipos de queso, la yema de huevo y un poco de pimienta negra se prepara una crema, machacándolo todo o utilizando la batidora. Se añade nata para conseguir la fluidez que se desee.
+        \n\nLos aguacates se rellenan con esta mezcla, empleando una manga pastelera o una churrera con boquilla rizada grande. En una fuente, y sobre hojas tiernas de lechuga, se colocan los aguacates y se espolvorean con las avellanas molidas.</string>
+    <string name="entrante4">Se separan las claras de las yemas de dos huevos y se baten las primeras a punto de nieve con un pellizco de sal. Cuando estén bien sólidas, se les añade una de las yemas, el queso y un poco de pimienta, removiéndolo para mezclarlo todo bien. Con esta masa se forman unas bolitas que se rebozan primero en pan rallado, luego en huevo batido y de nuevo en pan rallado. Se fríen en una sartén con abundante aceite caliente, se pasan a una fuente con papel de cocina para que absorba la grasa y se sirven.
+        \n\n
+        \n\n</string>
+    <string name="entrante5">Las pechugas de pavo se limpian de grasa, se trocean en trozos de tamaño regular y se dejanb macerar en una mezcla hecha con el zumo del limón, un ajo picado muy fino, sal y pimienta.
+        \n\nMientras, se parten las alcachofas a la mitad y los pimientos en cuadrados. Se preparan las brochetas, pinchando en un palo los trozos de carne con las verduras —carne, tomatito, carne, pimiento, carne, alcachofa, carne—. Las brochetas empezarán y terminarán con carne.
+        \n\nSe calienta la plancha con una cucharada de aceite a 195 ºC y se hacen las brochetas durante 10 minutos. Se sirven inmediatamente, acompañadas de una ensalada.</string>
+    <string name="entrante6">Se quitan las hojas más duras de las alcachofas, se les cortan los tallos y las puntas de las hojas y se vacían los corazones; luego, se rocían con zumo de limón y se cuecen en agua hirviendo con sal durante 30 minutos. Se dejan enfriar y se reservan.
+        \n\nEn una sartén se pone una cucharada de aceite, se saltean las colas de gamba, se sazonan y también se reservan. En el mismo aceite se fríe la cebolla muy fina picada hasta que esté bien pochada; se añade un chorro de vino blanco y se deja reducir; luego, se incorpora la harina, se tuesta durante un minuto, se añade el caldo de pescado y se deja cocer durante cinco minutos; por último, se incorporan las colas de gamba.
+        \n\nLos corazones de las alcachofas se rellenan con este preparado, se espolvorean con queso rallado y se gratinan en el horno a temperatura media durante unos minutos, hasta que el queso se dore.</string>
+    <string name="entrante7">Se que puede sonar muy raro y puede que a muchos la idea de combinar anchoas con leche condensada le produzca una cierta (llamémosle así) intranquilidad, pero una vez superada la barrera psicológica comprobarán que la tosta de anchoas con leche condensada es un bocado exquisito.
+        \n\n
+        \n\n</string>
+</resources>
