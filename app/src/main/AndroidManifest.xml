@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Bebidas.Bebidas1"></activity>
+        <activity android:name=".Cervezas.Cerveza1"></activity>
+        <activity android:name=".Bebidas.Bebidas1" />
         <activity android:name=".Entrantes.EDescripcion.EDescripcion7" />
         <activity android:name=".Entrantes.EDescripcion.EDescripcion6" />
         <activity android:name=".Entrantes.EDescripcion.EDescripcion5" />
