@@ -183,11 +183,13 @@
     <Button
         android:layout_width="150dp"
         android:layout_height="wrap_content"
+        android:backgroundTint="@color/verde"
         android:background="@drawable/boton_redondo"
         android:text="Pagar orden"></Button>
         <Button
             android:layout_width="150dp"
             android:layout_height="wrap_content"
+            android:backgroundTint="@color/rojo"
             android:text="Cancelar orden"
             android:background="@drawable/boton_redondo"
             android:layout_alignParentRight="true"></Button>
