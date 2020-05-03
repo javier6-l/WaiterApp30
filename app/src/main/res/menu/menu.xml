@@ -25,7 +25,8 @@
 
             <item
                 android:id="@+id/subitem1"
-                android:title="Cerrar Sesión"/>
+                android:title="Cerrar Sesión"
+                android:onClick="cerrar"/>
 
             <item
                 android:id="@+id/subitem2"

@@ -94,4 +94,9 @@ public class MenuC extends AppCompatActivity {
         startActivity(new Intent(getApplicationContext(), Cerveza1.class));
         finish();
     }
+
+    public void cerrar(MenuItem item) {
+        startActivity(new Intent(getApplicationContext(), MainActivity.class));
+        finish();
+    }
 }
