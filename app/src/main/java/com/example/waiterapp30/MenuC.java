@@ -13,7 +13,6 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.waiterapp30.Bebidas.Bebidas1;
 import com.example.waiterapp30.Cervezas.Cerveza1;
 import com.example.waiterapp30.Entrantes.Entrantes1;
-import com.example.waiterapp30.Menu.HPedidos;
 import com.example.waiterapp30.Postres.Postres1;
 import com.example.waiterapp30.Principales.Principal1;
 import com.example.waiterapp30.Sopas.Sopas1;
@@ -101,8 +100,8 @@ public class MenuC extends AppCompatActivity {
         finish();
     }
 
-    public void Hpedidos(MenuItem item) {
-        startActivity(new Intent(getApplicationContext(), HPedidos.class));
+    public void hpedido(MenuItem item) {
+        startActivity(new Intent(getApplicationContext(), Hpedidos.class));
         finish();
     }
 }

@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Menu.HPedidos"></activity>
+        <activity android:name=".Hpedidos"></activity>
         <activity android:name=".Cervezas.Cerveza1" />
         <activity android:name=".Bebidas.Bebidas1" />
         <activity android:name=".Entrantes.EDescripcion.EDescripcion7" />

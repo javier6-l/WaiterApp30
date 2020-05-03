@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Hpedidos">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M06:     Hostorial de pedidos"
+            android:textAlignment="center"
+            android:layout_marginTop="5sp"
+            android:layout_marginLeft="50dp"
+            android:textSize="25sp"></TextView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/textC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEMPLO DE ALIMENTOS"
+            android:textColor="#000000"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textC"
+            android:layout_marginTop="20dp"
+            android:text="05 Abril 2020 | 06:12 p.m."
+            android:textSize="12sp"></TextView>
+
+        <TextView
+            android:layout_width="10dp"
+            android:layout_height="25sp"
+            android:text="3"
+            android:textColor="@color/negro"
+            android:textSize="20sp"
+            android:layout_alignParentRight="true"></TextView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/textC2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Articulos"
+            android:textColor="#000000"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:id="@+id/macarrones"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textC2"
+            android:layout_marginTop="20dp"
+            android:text="Macarrones"
+            android:textSize="12sp"></TextView>
+        <TextView
+            android:id="@+id/liebre"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/macarrones"
+            android:layout_marginTop="10dp"
+            android:text="Liebre guisada"
+            android:textSize="12sp"></TextView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/liebre"
+            android:layout_marginTop="10dp"
+            android:text="Cerveza Sol"
+            android:textSize="12sp"></TextView>
+
+        <TextView
+            android:id="@+id/textC3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="170dp"
+            android:text="Cantidad"
+            android:textColor="#000000"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:id="@+id/can1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="210dp"
+            android:layout_below="@+id/textC3"
+            android:layout_marginTop="20dp"
+            android:text="1"
+            android:textSize="12sp"></TextView>
+        <TextView
+            android:id="@+id/can11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="210dp"
+            android:layout_below="@+id/can1"
+            android:layout_marginTop="10dp"
+            android:text="1"
+            android:textSize="12sp"></TextView>
+        <TextView
+            android:id="@+id/can111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="210dp"
+            android:layout_below="@+id/can11"
+            android:layout_marginTop="10dp"
+            android:text="1"
+            android:textSize="12sp"></TextView>
+
+        <TextView
+            android:id="@+id/textC4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="290dp"
+            android:text="Precio"
+            android:textColor="#000000"
+            android:textSize="20sp"></TextView>
+
+        <TextView
+            android:id="@+id/precio11"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="315dp"
+            android:layout_below="@+id/textC4"
+            android:layout_marginTop="20dp"
+            android:text="$ 40"
+            android:textSize="12sp"></TextView>
+        <TextView
+            android:id="@+id/precio111"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="315dp"
+            android:layout_below="@+id/precio11"
+            android:layout_marginTop="10dp"
+            android:text="$ 80"
+            android:textSize="12sp"></TextView>
+        <TextView
+            android:id="@+id/precio1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="315dp"
+            android:layout_below="@+id/precio111"
+            android:layout_marginTop="10dp"
+            android:text="$ 25"
+            android:textSize="12sp"></TextView>
+    </RelativeLayout>
+<LinearLayout
+    android:layout_width="375dp"
+    android:layout_height="2dp"
+    android:layout_marginLeft="17dp"
+    android:layout_marginTop="20sp"
+    android:background="@color/colorPrimaryDark"
+    android:orientation="vertical"></LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="302dp"
+        android:layout_marginRight="20dp">
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/boton_redondo"
+        android:text="Pagar orden"></Button>
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="Cancelar orden"
+            android:background="@drawable/boton_redondo"
+            android:layout_alignParentRight="true"></Button>
+    </RelativeLayout>
+</LinearLayout>
