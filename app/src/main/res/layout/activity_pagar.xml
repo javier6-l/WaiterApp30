@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Pagar">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="M06:    Forma de pago"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:layout_marginTop="5sp"
+            android:layout_marginLeft="50dp"
+            android:textSize="25sp"></TextView>
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginRight="20dp">
+
+        <TextView
+            android:id="@+id/textC"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="TEMPLO DE ALIMENTOS"
+            android:textColor="#000000"
+            android:textSize="20sp"></TextView>
+        <TextView
+            android:id="@+id/fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textC"
+            android:layout_marginTop="20dp"
+            android:text="05 Abril 2020 | 06:12 p.m."
+            android:textSize="12sp"></TextView>
+
+        <TextView
+            android:id="@+id/textF"
+            android:layout_below="@+id/fecha"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="FORMA DE PAGO"
+            android:textColor="#000000"
+            android:textSize="20sp"></TextView>
+
+    </RelativeLayout>
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layout_marginTop="50dp">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Elige como pagar"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textColor="@android:color/black"
+        android:layout_gravity="center"/>
+
+    <CheckBox
+        android:id="@+id/checkb1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Tarjeta de crédito"
+        android:layout_marginTop="20dp"/>
+
+    <CheckBox
+        android:id="@+id/checkb2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="PayPal"
+        />
+
+    <CheckBox
+        android:id="@+id/checkb3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Efectivo"
+        />
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+</LinearLayout>
+
+
+
+</LinearLayout>
