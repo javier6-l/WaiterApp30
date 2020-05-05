@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Comentario">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:background="@color/colorPrimaryDark"
+        android:orientation="horizontal">
+        <Button
+            android:layout_width="70sp"
+            android:layout_marginTop="2sp"
+            android:background="@drawable/boton_redondo"
+            android:layout_height="40dp"
+            android:textColor="#ffffff"
+            android:onClick="atras"
+            android:text="Atras">
+        </Button>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="¿Comentarios?"
+            android:textAlignment="center"
+            android:textColor="#ffffff"
+            android:layout_marginTop="5sp"
+            android:layout_marginLeft="50dp"
+            android:textSize="25sp"></TextView>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_marginTop="10sp"
+        android:text="Nos gustaría saber lo que piensas"
+        android:layout_marginLeft="10sp"
+        android:textSize="25dp"
+        android:textColor="@color/colorPrimaryDark"
+        ></TextView>
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="380dp"
+        android:layout_gravity="center"
+        android:layout_height="300dp"
+        android:ems="10"
+        android:inputType="textPersonName"
+         />
+
+    <Button
+        android:id="@+id/button_submit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enviar"
+        android:textColor="#ffffff"
+        android:background="@color/colorPrimaryDark"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>

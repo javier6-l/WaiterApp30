@@ -104,4 +104,14 @@ public class MenuC extends AppCompatActivity {
         startActivity(new Intent(getApplicationContext(), Hpedidos.class));
         finish();
     }
+
+    public void funciona(MenuItem item) {
+        startActivity(new Intent(getApplicationContext(), Funciona.class));
+        finish();
+    }
+
+    public void comentario(MenuItem item) {
+        startActivity(new Intent(getApplicationContext(), Comentario.class));
+        finish();
+    }
 }
