@@ -24,7 +24,8 @@
         <menu>
             <item
                 android:id="@+id/subitem3"
-                android:title="Contactanos"/>
+                android:title="Contactanos"
+                android:onClick="Contactanos"/>
 
             <item
                 android:id="@+id/subitem1"

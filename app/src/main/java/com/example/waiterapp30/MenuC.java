@@ -114,4 +114,9 @@ public class MenuC extends AppCompatActivity {
         startActivity(new Intent(getApplicationContext(), Comentario.class));
         finish();
     }
+
+    public void Contactanos(MenuItem item) {
+        startActivity(new Intent(getApplicationContext(), Contactanos.class));
+        finish();
+    }
 }
