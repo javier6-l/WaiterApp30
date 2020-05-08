@@ -38,11 +38,36 @@
 
             <ImageView
                 android:layout_width="62dp"
+                android:background="@mipmap/logo"
                 android:layout_height="62dp"
                 android:layout_alignParentRight="true"></ImageView>
         </RelativeLayout>
+    <RelativeLayout
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:padding="16dp">
+        <TextView
+            android:id="@+id/textview_viewflipper"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Especiales del Restaurante"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="@android:color/black"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp" />
 
-        <GridLayout
+
+        <AdapterViewFlipper
+            android:id="@+id/adapter_view_flipper"
+            android:layout_width="400dp"
+            android:layout_height="200dp"
+            android:layout_below="@+id/textview_viewflipper"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="20dp" />
+
+    </RelativeLayout>
+    <GridLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:alignmentMode="alignMargins"
