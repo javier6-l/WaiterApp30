@@ -1,5 +1,6 @@
 package com.example.waiterapp30;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
@@ -51,5 +52,15 @@ public class Pagar extends AppCompatActivity {
                 }
             }
         });
+    }
+
+    public void cancelar(View view) {
+        startActivity(new Intent(getApplicationContext(), MenuC.class));
+        finish();
+    }
+
+    public void atras(View view) {
+        startActivity(new Intent(getApplicationContext(), Hpedidos.class));
+        finish();
     }
 }

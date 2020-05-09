@@ -18,4 +18,14 @@ public class Hpedidos extends AppCompatActivity {
         startActivity(new Intent(getApplicationContext(), Pagar.class));
         finish();
     }
+
+    public void cancelar(View view) {
+        startActivity(new Intent(getApplicationContext(), MenuC.class));
+        finish();
+    }
+
+    public void atras(View view) {
+        startActivity(new Intent(getApplicationContext(), MenuC.class));
+        finish();
+    }
 }
