@@ -9,7 +9,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="50dp"
+        android:layout_height="55dp"
         android:textAlignment="center"
         android:background="@color/colorPrimaryDark"
         android:orientation="horizontal">
@@ -18,7 +18,7 @@
             android:layout_height="wrap_content"
             android:onClick="atras"
             android:hint="Atras"
-            android:layout_marginTop="5sp"
+            android:layout_marginTop="3sp"
             android:background="@drawable/boton_redondo"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintHorizontal_bias="0.0"
@@ -197,6 +197,7 @@
         android:layout_height="wrap_content"
         android:backgroundTint="@color/verde"
         android:onClick="pagar"
+        android:textColor="@color/blanco"
         android:background="@drawable/boton_redondo"
         android:text="Pagar orden"></Button>
         <Button
@@ -205,6 +206,7 @@
             android:backgroundTint="@color/rojo"
             android:onClick="cancelar"
             android:text="Cancelar orden"
+            android:textColor="@color/blanco"
             android:background="@drawable/boton_redondo"
             android:layout_alignParentRight="true"></Button>
     </RelativeLayout>
